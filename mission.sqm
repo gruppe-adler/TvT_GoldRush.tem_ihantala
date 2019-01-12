@@ -12652,7 +12652,7 @@ class Mission
 				position[]={3232.3601,9.2421913,3978.928};
 				angles[]={6.2344732,0,0.026249751};
 			};
-			init="call{[this,""Pekarinlampi"",east,0] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Pekarinlampi"",EAST,0] call grad_linearsd_fnc_createSector;}";
 			id=428;
 			type="Logic";
 		};
@@ -12673,7 +12673,7 @@ class Mission
 			{
 				position[]={1523.965,7.2682924,3691.3201};
 			};
-			init="call{[this,""Vakkila"",east,1] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Vakkila"",EAST,1] call grad_linearsd_fnc_createSector;}";
 			id=430;
 			type="Logic";
 			atlOffset=2.4020004;
@@ -12695,7 +12695,7 @@ class Mission
 			{
 				position[]={2192.353,24.118032,3018.624};
 			};
-			init="call{[this,""Hakamäki"",east,1] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Hakamäki"",EAST,1] call grad_linearsd_fnc_createSector;}";
 			id=432;
 			type="Logic";
 			atlOffset=2.4020004;
@@ -12732,10 +12732,10 @@ class Mission
 			{
 				position[]={1291.958,15.193398,2469.095};
 			};
-			init="call{[this,""Tätehlä-East"",east,2] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Tätehlä-East"",EAST,2] call grad_linearsd_fnc_createSector;}";
 			id=435;
 			type="Logic";
-			atlOffset=2.4020004;
+			atlOffset=2.4019995;
 		};
 		class Item12
 		{
@@ -12754,7 +12754,7 @@ class Mission
 			{
 				position[]={478.53101,6.4867544,2804.4919};
 			};
-			init="call{[this,""Tätehlä-West"",east,2] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Tätehlä-West"",EAST,2] call grad_linearsd_fnc_createSector;}";
 			id=437;
 			type="Logic";
 			atlOffset=2.402;
@@ -12774,9 +12774,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={674.29492,21.81885,2116.4761};
+				position[]={674.29498,21.818836,2116.4761};
 			};
-			init="call{[this,""Kuukanvuori"",west,3] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Kuukanvuori"",WEST,3] call grad_linearsd_fnc_createSector;}";
 			id=439;
 			type="Logic";
 			atlOffset=2.4020004;
@@ -12798,7 +12798,7 @@ class Mission
 			{
 				position[]={1176.067,10.890572,1547.0229};
 			};
-			init="call{[this,""Karhumäki"",west,3] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Karhumäki"",WEST,3] call grad_linearsd_fnc_createSector;}";
 			id=441;
 			type="Logic";
 			atlOffset=2.4019995;
@@ -12818,9 +12818,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1888.594,5.7160039,768.95093};
+				position[]={1888.594,5.7160187,768.95099};
 			};
-			init="call{[this,""Alahovi-North"",west,4] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Alahovi-North"",WEST,4] call grad_linearsd_fnc_createSector;}";
 			id=443;
 			type="Logic";
 			atlOffset=2.402;
@@ -12842,7 +12842,7 @@ class Mission
 			{
 				position[]={1397.5959,12.344387,307.20801};
 			};
-			init="call{[this,""Alahovi-South"",west,4] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Alahovi-South"",WEST,4] call grad_linearsd_fnc_createSector;}";
 			id=445;
 			type="Logic";
 			atlOffset=2.4020004;
@@ -12862,9 +12862,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3536.1709,22.932499,184.01196};
+				position[]={3536.1709,22.932497,184.01199};
 			};
-			init="call{[this,""Toivola"",west,5] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Toivola"",WEST,5] call grad_linearsd_fnc_createSector;}";
 			id=447;
 			type="Logic";
 			atlOffset=2.4020004;
