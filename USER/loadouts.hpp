@@ -16,7 +16,7 @@
 
 
 loadoutFactionBlu = "fin_borderGuard";
-loadoutFactionOpf = "rus_msv_w";
+loadoutFactionOpf = "rus_mob";
 loadoutFactionInd = "";
 
 

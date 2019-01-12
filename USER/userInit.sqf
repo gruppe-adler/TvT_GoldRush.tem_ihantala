@@ -22,4 +22,4 @@
 
     [_firstActiveSectorID, _roundLength, _opforDirection, _dateAndTimeArray] call grad_linearSD_fnc_startLinearSD;
 
-},[],[10,0] select didJIP] call CBA_fnc_waitAndExecute;
+},[],([10,0] select didJIP)] call CBA_fnc_waitAndExecute;
