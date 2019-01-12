@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=451;
+		nextID=461;
 	};
 	class MarkerIDProvider
 	{
@@ -3104,7 +3104,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=27;
+		items=37;
 		class Item0
 		{
 			dataType="Layer";
@@ -12872,7 +12872,7 @@ class Mission
 		class Item24
 		{
 			dataType="Trigger";
-			position[]={3660.2744,11.391952,126.35645};
+			position[]={3653.7771,11.46007,125.47046};
 			class Attributes
 			{
 			};
@@ -12903,16 +12903,136 @@ class Mission
 			id=450;
 			type="Logic";
 		};
+		class Item27
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3325.9546,5.1654096,3917.9856};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=451;
+			type="Logic";
+		};
+		class Item28
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1626.9166,8.3373985,3616.96};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=452;
+			type="Logic";
+		};
+		class Item29
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2316.9529,27.976173,2949.8267};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=453;
+			type="Logic";
+		};
+		class Item30
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1408.9346,9.5890741,2406.7859};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=454;
+			type="Logic";
+		};
+		class Item31
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={603.77722,5.8035278,2733.2778};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=455;
+			type="Logic";
+		};
+		class Item32
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={824.41254,17.000488,2051.2764};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=456;
+			type="Logic";
+		};
+		class Item33
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1320.771,9.9601803,1488.7297};
+				angles[]={0.008748306,0,0.014998405};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=457;
+			type="Logic";
+		};
+		class Item34
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1511.5608,8.028141,263.88281};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=458;
+			type="Logic";
+		};
+		class Item35
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2041.4828,7.2411613,724.75659};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=459;
+			type="Logic";
+		};
+		class Item36
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3635.1792,11.95085,114.47852};
+				angles[]={6.2407117,0,6.2606897};
+			};
+			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
+			id=460;
+			type="Logic";
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=103;
+			nextID=113;
 		};
 		class Links
 		{
-			items=103;
+			items=113;
 			class Item0
 			{
 				linkID=0;
@@ -13938,6 +14058,106 @@ class Mission
 				linkID=102;
 				item0=450;
 				item1=449;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item103
+			{
+				linkID=103;
+				item0=451;
+				item1=429;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item104
+			{
+				linkID=104;
+				item0=452;
+				item1=431;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item105
+			{
+				linkID=105;
+				item0=453;
+				item1=433;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item106
+			{
+				linkID=106;
+				item0=454;
+				item1=436;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item107
+			{
+				linkID=107;
+				item0=455;
+				item1=438;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item108
+			{
+				linkID=108;
+				item0=456;
+				item1=440;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item109
+			{
+				linkID=109;
+				item0=457;
+				item1=442;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item110
+			{
+				linkID=110;
+				item0=458;
+				item1=446;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item111
+			{
+				linkID=111;
+				item0=459;
+				item1=444;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item112
+			{
+				linkID=112;
+				item0=460;
+				item1=448;
 				class CustomData
 				{
 					type="Sync";
