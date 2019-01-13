@@ -15,7 +15,7 @@
 */
 
 
-loadoutFactionBlu = "fin_borderGuard";
+loadoutFactionBlu = "fin_police";
 loadoutFactionOpf = "rus_mob";
 loadoutFactionInd = "";
 
